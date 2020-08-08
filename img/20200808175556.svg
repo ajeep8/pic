@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  height="260px"
+  style="zoom: 1;"
+  id="svg_document"
+  width="450px"
+  baseProfile="full"
+  version="1.1"
+  preserveAspectRatio="xMidYMid meet"
+  enable-background="true"
+  viewBox="0 0 450 260">
+
+  <defs id="defs1">
+    <marker id="arrow" refX="8" markerHeight="7" markerWidth="9" stroke-dasharray="0,0" markerUnits="strokeWidth" d="" orient="auto" viewBox="0 0 16 12" overflow="visible" refY="4">
+      <path stroke="#000" id="arrow16" stroke-width="nonepx" d="M1,1 L1,7 L9,4 L1,1 L1,7" fill="$000" transform=""></path>
+    </marker>
+    <style type="text/css">
+      <![CDATA[
+      #MyRect {
+        stroke: black;
+        fill: red;
+      }
+      .txt20 {
+        stroke: none;
+        font-family: Helvetica;
+        fill: #000000;
+        font-size: 20px;
+        stroke-width: 1px;
+        text-anchor: middle;
+        text-rendering: geometricPrecision;
+      }
+      .txt16 {
+        stroke: none;
+        font-family: Helvetica;
+        fill: #000000;
+        font-size: 16px;
+        stroke-width: 1px;
+        text-anchor: middle;
+        text-rendering: geometricPrecision;
+      }
+      .txt12 {
+        stroke: none;
+        font-family: Helvetica;
+        fill: #000000;
+        font-size: 12px;
+        stroke-width: 1px;
+        text-anchor: middle;
+        text-rendering: geometricPrecision;
+      }
+      .mypath {
+        stroke: #000000;
+        stroke-width: 2px;
+        fill: none;
+      }
+      .myline {
+        stroke: #000000;
+        stroke-width: 2px;
+      }
+      .circ10 {
+        stroke: #000000;
+        stroke-width: nonepx;
+        fill: #ffdddd;
+        r: 10px;
+      }
+      .myrect {
+        stroke: #000000;
+        height: 19px;
+        stroke-width: nonepx;
+        width: 46px;
+        fill: #ffffdd;
+      }
+
+      ]]>
+    </style>
+  </defs>
+  <rect x="0px" height="260px" color="url(#main_group)" y="0px" id="background_rect" width="450px" fill="#dddddd"></rect>
+  <g id="main_group" transform="translate(0,-70) rotate(0)">
+
+    <rect id="rect0" x="40px" rx="20" y="80px" width="330px" height="227px" fill="#ddffdd" ry="20"></rect>
+
+    <line class="myline" id="line4" x1="0px" y1="125px" x2="420px" y2="125px" marker-end="url(#arrow)"></line>
+    <path class="mypath" id="path2" d="M77,125 c0,0 9,1 10,10 v120 c0,0 1,9 10,10"></path>
+
+    <g id="At" transform="translate(390,120) rotate(0)">
+      <text class="txt20" id="text13" x="0px" y="0px">a</text>
+      <text class="txt12" id="text14" x="7px" y="0px">t</text>
+    </g>
+    <g id="At1" transform="translate(10,120) rotate(0)">
+      <text class="txt20" id="text9" x="0px" y="0px">a</text>
+      <text class="txt12" id="text10" x="14px" y="0px">t-1</text>
+    </g>
+    <g id="Xt" transform="translate(45,321) rotate(0)">
+      <text id="text11" x="0px" class="txt20" y="0px">x</text>
+      <text id="text12" x="7px" class="txt12" y="0px">t</text>
+    </g>
+
+    <path class="mypath" id="toGr" d="M50,125 c0,0 9,1 10,10 v100 c0,0 1,9 10,10 h45 c0,0 9,-1 10,-10 v-50 c0,0 -1,-9 -10,-10 h-15" marker-end="url(#arrow)"></path>
+    <g id="Gr" transform="translate(105,200) rotate(0)">
+      <text id="text15" x="0px" class="txt20" y="0px">Γ</text>
+      <text id="text16" x="5px" class="txt12" y="0px">r</text>
+    </g>
+
+    <svg id="mul" x="77" y="165">
+      <circle class="circ10" id="circle4" cx="11px" cy="11px"></circle>
+      <text id="text7" x="11px" y="16px" class="txt20">x</text>
+    </svg>
+
+    <path class="mypath" id="toGu" d="M60,320 v-65 c0,0 1,-9 10,-10 h100 c0,0 9,-1 10,-10 v-100 " marker-end="url(#arrow)"></path>
+    <g id="Gu" transform="translate(165,200) rotate(0)">
+      <text id="text20" x="0px" class="txt20" y="0px">Γ</text>
+      <text id="text21" x="5px" class="txt12" y="0px">u</text>
+    </g>
+    <use x="91" y="-51" xlink:href="#mul"/>
+    <svg id="minus" x="168px" y="160px">
+      <circle class="circ10" id="circle5" cx="11px" cy="11px"></circle>
+      <text class="txt16" id="text8" x="11px" y="16px">1-</text>
+    </svg>
+    <g id="Gf" transform="translate(162,155) rotate(0)">
+      <text id="text20" x="0px" class="txt20" y="0px">≈Γ</text>
+      <text id="text21" x="9px" class="txt12" y="0px">f</text>
+    </g>
+
+    <g id="Cw" transform="translate(255,210) rotate(0)">
+      <text id="text17" x="0px" class="txt20" y="10px">c</text>
+      <text id="text18" x="9px" class="txt12" y="10px">t</text>
+      <text id="text19" x="0px" class="txt20" y="0px">~</text>
+    </g>
+    <path class="mypath" id="tanh" d="M60,275 c0,0 1,-9 10,-10 h165 c0,0 9,-1 10,-10 v-120 " marker-end="url(#arrow)"></path>
+    <path class="mypath" id="path6" d="M180,200 c0,0 1,-9 10,-10 h42" marker-end="url(#arrow)"></path>
+    <defs>
+      <svg id="plus">
+        <circle class="circ10" id="circle3" cx="11px" cy="11px"></circle>
+        <text id="text6" x="11px" class="txt20" y="16px">+</text>
+      </svg>
+    </defs>
+    <use x="234" y="115" xlink:href="#plus"/>
+    <use x="157" y="14" xlink:href="#mul"/>
+
+
+    <g id="Sigma" transform="translate(100,205) rotate(0)">
+      <rect class="myrect" x="0px" y="0px" id="rect2"></rect>
+      <text id="text2" x="22px" class="txt20" y="16px">σ</text>
+    </g>
+    <use x="60" y="0" xlink:href="#Sigma"/>
+    <g id="tanh" transform="translate(220,225) rotate(0)">
+      <rect class="myrect" x="0px" y="1px" id="rect3"></rect>
+      <text id="text3" x="22px" class="txt16" y="16px">tanh</text>
+    </g>
+  </g>
+</svg>
